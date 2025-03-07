@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portfolio>
+    <projeto>
+        <pubDate>Sex, 07 de Março de 2025 17:22:00 GMT</pubDate>
+        <titulo>Cursando Analise e Desenvolvimento de Sistemas</titulo>
+        <descricao>3° Semestre</descricao>
+    </projeto>
+
+    <projeto>
+        <pubDate>Sex, 07 de Março de 2025 17:24:00 GMT</pubDate>
+        <titulo>Aplicativo Python</titulo>
+        <descricao>Um app criado com RAD em Python.</descricao>
+        <link>https://meuport-five.vercel.app/</link>
+    </projeto>
+</portfolio>
