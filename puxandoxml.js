@@ -14,9 +14,9 @@ fetch('portfolio.xml')
             for (let node of projeto.children) {
                 let elemento = document.createElement(node.tagName === "link" ? "a" : "p");
 
-                // Se a tag for pubDate, pega o valor diretamente do XML
+                
                 if (node.tagName === "pubDate") {
-                    // Exibe o valor da data diretamente do XML
+                    
                     elemento.textContent = `Publicado em: ${node.textContent}`;
                 } else {
                     elemento.textContent = node.textContent;
