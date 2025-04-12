@@ -61,40 +61,9 @@ h1 {
     margin-left: 300px;
 }
 
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .header {
-        flex-direction: row;
-        justify-content: center;
-        height: 56vh;
-        width: 100%;
-        overflow: hidden;
-        padding: 0;
-    }
-
-    .profile-container {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .profile-container img {
-        padding: 0;
-        margin: 0;
-    }
-
-    h1 {
-        font-size: 2.5em;
-        margin: 20px;
-        padding: 0;
-    }
-
-    svg {
-        width: 100%;
-        height: auto;
-    }
+#h2zin {
+    font-size: 2.5em;
+    color: var(--secundaria);
 }
 
 /*Fim cabeçalho*/
@@ -133,11 +102,7 @@ h1 {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .skills {
-        padding: 20px;
-    }
-}
+
 
 .skill-box:hover {
     box-shadow: 0 10px 20px rgba(5, 49, 40, 0.9);
@@ -254,6 +219,11 @@ h1 {
     font-weight: bold;
     width: 100%;
     transition: all 0.5s ease;
+}
+/*ID manipulado no JS Eventos*/
+#botao-form {
+    color: black;
+    transition: color 0.3s ease-in-out;
 }
 
 .botao-form:hover {

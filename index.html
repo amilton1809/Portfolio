@@ -7,6 +7,7 @@
     <title>Portfólio - José Amilton</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portxml.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 
 <body>
@@ -25,16 +26,20 @@
     </svg>
 
     <div>
-        <img id="img-icons" src="img/instagram.png" alt="">
-        <img id="img-icons" src="img/github.png" alt="">
-        <img id="img-icons" src="img/facebook.png" alt="">
-        
+        <a href="https://www.instagram.com/a.milton18/" target="_blank"><img id="img-icons" src="img/instagram.png"
+                alt="Meu Insta"></a>
+        <a href="https://github.com/amilton1809" target="_blank"><img id="img-icons" src="img/github.png" alt=""></a>
+        <a href="https://www.facebook.com/silvaamilton" target="_blank"><img id="img-icons" src="img/facebook.png"
+                alt=""></a>
     </div>
-        <div id="portfolio-container" id="#leftColTabs">
+    <!-- <div id="portfolio-container" id="#leftColTabs">
             <h2>Informações :</h2>
-        </div>
-
+        </div>-->
     <br>
+    <br>
+    <div>
+        <h2 id="h2zin">Insight</h2>
+    </div>
     <section class="skills">
 
         <div class="skill-box">
@@ -64,7 +69,7 @@
             <h2>Automação de Interface Grafica do Usuario</h2>
             <p>AHK - AutoHotkey</p>
         </div>
-        
+
     </section>
 
     <br><br><br>
@@ -74,10 +79,12 @@
         <div class="projetos-caixa">
 
             <div class="projetos-card">
-                <img src="img/a7maclean.jpg" alt="" class="projetos-imagem">
+                <a href="https://7macleannovo.vercel.app/" target="_blank"><img src="img/a7maclean.jpg" alt="A7MACLEAN"
+                        class="projetos-imagem"></a>
                 <div class="caixa-texto-projeto">
                     <h3 class="info-projetos"></h3>
-                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore magni minus a quidem non tenetur harum aliquam explicabo alias dolor consectetur, ab laborum voluptatum sit exercitationem laudantium. Iusto, autem assumenda.</p>
+                    <p class="paragrafo-projetos">Empresa que trabalha com a remoção de sujidades visiveis e
+                        superficiais, além de ácaros e bactérias.</p>
                 </div>
             </div>
 
@@ -85,7 +92,9 @@
                 <img src="img/usa2.jpg" alt="" class="projetos-imagem">
                 <div class="caixa-texto-projeto">
                     <h3 class="info-projetos"></h3>
-                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, impedit provident recusandae, perspiciatis repellendus, ipsam deserunt similique illo quae est cum unde distinctio molestiae ex maiores magnam praesentium neque alias!</p>
+                    <p class="paragrafo-projetos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                        impedit provident recusandae, perspiciatis repellendus, ipsam deserunt similique illo quae est
+                        cum unde distinctio molestiae ex maiores magnam praesentium neque alias!</p>
                 </div>
             </div>
 
@@ -93,29 +102,32 @@
                 <img src="img/a7maclean.jpg" alt="" class="projetos-imagem">
                 <div class="caixa-texto-projeto">
                     <h3 class="info-projetos"></h3>
-                    <p class="paragrafo-projetos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores perspiciatis atque non. Pariatur reiciendis, amet nostrum dolorem atque maxime? Neque blanditiis qui praesentium quam at quibusdam sed ut esse corporis!</p>
+                    <p class="paragrafo-projetos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+                        perspiciatis atque non. Pariatur reiciendis, amet nostrum dolorem atque maxime? Neque blanditiis
+                        qui praesentium quam at quibusdam sed ut esse corporis!</p>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
-<section id="contatos" class="contatos">
-    <h2 class="contatos-titulo">Entre em Contato</h2>
-    <form id="formulario" class="formulario-contato">
-        <div class="grupo-form">
-            <input class="campo-form" placeholder="nome">
-        </div>
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form id="formulario" class="formulario-contato">
+            <div class="grupo-form">
+                <input class="campo-form" placeholder="nome">
+            </div>
 
-        <div class="grupo-form">
-            <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
-        </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
+            </div>
 
-        <button class="botao-form" type="submit">Enviar Whatsapp</button>
-    </form>
-</section>
+            <button class="botao-form" id="botao-form" type="submit">Enviar Whatsapp</button>
+        </form>
+    </section>
 
-<script src="puxandoxml.js"></script>
+    <script src="puxandoxml.js"></script>
+    <script src="eventos.js"></script>
 
 </body>
 

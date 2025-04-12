@@ -1,5 +1,6 @@
 // Carregar e exibir todos os projetos do XML
-fetch('portfolio.xml')
+//portfolio.xml
+fetch('')
     .then(response => response.text())
     .then(str => {
         let parser = new DOMParser();
@@ -34,7 +35,6 @@ fetch('portfolio.xml')
         }
     })
     .catch(error => console.error("Erro ao carregar XML:", error));
-
 
 
 
