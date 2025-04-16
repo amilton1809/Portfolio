@@ -99,11 +99,14 @@ body {
 }
 
 .subh2 {
+    background-color: var(--maisescuro);
     font-size: 1.0em;
     color: var(--escuro);
-    margin-top: 160px;
+    margin-top: -62px;
     margin-left: -280px;
+    margin-bottom: 0px;
 }
+
 
 /*Fim cabeçalho*/
 
