@@ -76,3 +76,13 @@
         }
     }
 }
+
+
+@media (max-width: 1024px) {
+
+    .subh2 {
+        font-size: 1.0em;
+        margin-left: 110px;
+    }
+
+    }
