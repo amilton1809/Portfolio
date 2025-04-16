@@ -28,6 +28,13 @@
         padding: 0;
     }
 
+    .subh2 {
+        font-size: 1.0em;
+        margin: 0;
+        padding: 0;
+        margin-top: -15px;
+    }
+
     svg {
         width: 100%;
         height: auto;
@@ -43,3 +50,24 @@
 }
 
 /**/
+
+/*keyframes*/
+
+@media (max-width: 768px) {
+    .line {
+        margin-left: 20px; /* em vez dos 300px */
+        margin-top: 60px; /* um pouco menos de topo */
+        font-size: 2em;
+        
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 11.4ch; /* ajusta o número de caracteres que cabem na tela menor */
+        }
+    }
+}
