@@ -67,7 +67,7 @@ body {
 /*usando keyframes*/
 
 .typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal,
+    animation: blinkCursor 500ms steps(40) normal,
         typing 1s steps(100) 1s normal both;
 }
 

@@ -57,9 +57,13 @@
     .line {
         margin-left: 20px; /* em vez dos 300px */
         margin-top: 40px; /* um pouco menos de topo */
-        margin-bottom: -40px;
+        margin-bottom: -70px;
         font-size: 2.1em;
         
+    }
+
+    .subh2 {
+        font-size: 1.0em;
     }
 
     @keyframes typing {
