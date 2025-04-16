@@ -80,6 +80,13 @@
 
 @media (max-width: 1024px) {
 
+    .line {
+        margin-right: 100px;
+        margin-top: 40px;
+        font-size: 2.1em;
+
+    }
+
     .subh2 {
         font-size: 0.6em;
         margin-left: 240px;
