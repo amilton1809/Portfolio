@@ -56,8 +56,9 @@
 @media (max-width: 768px) {
     .line {
         margin-left: 20px; /* em vez dos 300px */
-        margin-top: 60px; /* um pouco menos de topo */
-        font-size: 2em;
+        margin-top: 40px; /* um pouco menos de topo */
+        margin-bottom: -40px;
+        font-size: 2.1em;
         
     }
 
