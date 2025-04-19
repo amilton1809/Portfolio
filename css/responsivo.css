@@ -63,7 +63,9 @@
     }
 
     .subh2 {
-        font-size: 1.0em;
+        font-size: 0.6em;
+        position: relative;
+        top: -22px;
     }
 
     @keyframes typing {
@@ -83,9 +85,8 @@
         margin-left: 110px;
     }
     .subh2 {
-        font-size: 1.0em;
+        font-size: 0.8em;
         margin: 0;
         padding: 0;
-        margin-top: -30px;
     }
 }

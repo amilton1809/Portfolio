@@ -33,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-
+    
 }
 
 .profile-container {
@@ -42,6 +42,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    
 }
 
 
@@ -62,6 +63,14 @@ body {
     margin-left: 300px;
     white-space: nowrap;
     overflow: hidden;
+    
+    margin-bottom: 0px;
+}
+
+svg {
+    
+    position: relative;
+    bottom: 20px;
 }
 
 /*usando keyframes*/
@@ -99,11 +108,15 @@ body {
 }
 
 .subh2 {
+    display: inline-block;
     background-color: var(--maisescuro);
     font-size: 1.0em;
     color: var(--escuro);
-    margin-top: -62px;
-    margin-left: -280px;
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+    bottom: 20px;
     margin-bottom: 0px;
 }
 
