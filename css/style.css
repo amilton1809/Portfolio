@@ -57,13 +57,26 @@ body {
 
 .line {
     border-right: 2px solid var(--escuro);
-    font-size: 3.5em;
+    font-size: 5.5em;
     color: var(--escuro);
     margin-top: 100px;
-    margin-left: 300px;
+    margin-left: 160px;
     white-space: nowrap;
     overflow: hidden;
     
+    margin-bottom: 0px;
+}
+
+.subh2 {
+    display: inline-block;
+    background-color: var(--maisescuro);
+    font-size: 1.0em;
+    color: var(--escuro);
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+    bottom: 20px;
     margin-bottom: 0px;
 }
 
@@ -106,20 +119,6 @@ svg {
     font-size: 2.5em;
     color: var(--secundaria);
 }
-
-.subh2 {
-    display: inline-block;
-    background-color: var(--maisescuro);
-    font-size: 1.0em;
-    color: var(--escuro);
-    margin: 0;
-    padding: 0;
-    
-    position: relative;
-    bottom: 20px;
-    margin-bottom: 0px;
-}
-
 
 /*Fim cabeçalho*/
 
