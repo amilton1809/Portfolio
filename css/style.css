@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html body {
     height: 100%;
     margin: 0;
@@ -63,7 +68,7 @@ body {
     margin-left: 160px;
     white-space: nowrap;
     overflow: hidden;
-    outline: 1px solid red;
+    
     margin-bottom: 0px;
 }
 
@@ -74,7 +79,7 @@ body {
     color: var(--escuro);
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
+    
     position: relative;
     bottom: 0px;
     margin-bottom: 0px;
