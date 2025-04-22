@@ -63,27 +63,32 @@ body {
     margin-left: 160px;
     white-space: nowrap;
     overflow: hidden;
-    
+    outline: 1px solid red;
     margin-bottom: 0px;
 }
 
 .subh2 {
     display: inline-block;
     background-color: var(--maisescuro);
-    font-size: 1.0em;
+    font-size: 1em;
     color: var(--escuro);
     margin: 0;
     padding: 0;
-    
+    outline: 1px solid red;
     position: relative;
-    bottom: 20px;
+    bottom: 0px;
     margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
 }
 
 svg {
     
     position: relative;
-    bottom: 20px;
+    bottom: 0px;
 }
 
 /*usando keyframes*/
