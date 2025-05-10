@@ -38,23 +38,25 @@ body {
     background-color: var(--maisescuro);
     display: flex;
     align-items: center;
-    flex-direction: row;
-    
-}
-
-.profile-container {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: row;
     
 }
 
+.profile-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    min-height: 100%;
+}
 
-.profile-container img {
-    width: 200px;
-    height: 200px;
+
+.profilezin img {
+    width: 220px;
+    height: 220px;
     position: relative;
     margin-left: 50px;
     border-radius: 50%;
@@ -62,11 +64,12 @@ body {
 }
 
 .line {
+    
     border-right: 2px solid var(--escuro);
     font-size: 5.5em;
     color: var(--escuro);
     margin-top: 100px;
-    margin-left: 160px;
+    margin-right: 100px;
     white-space: nowrap;
     overflow: hidden;
     
