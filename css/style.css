@@ -49,7 +49,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    
+    overflow: hidden;
     min-height: 100%;
 }
 
