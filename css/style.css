@@ -186,12 +186,6 @@ svg {
 }
 
 
-
-.skill-box:hover {
-    box-shadow: 0 10px 20px rgba(5, 49, 40, 0.9);
-    transform: translateY(-10px) scale(1.03);
-}
-
 /*Fim Skills*/
 
 /*Projetos : Titulo, caixa, paragrafos, cards, imagens, */
