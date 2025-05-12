@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     }, {
-      threshold: 0.6 // Ajuste para 0.2 (20%) de visibilidade para iniciar o efeito
+      threshold: 0.5 // Ajuste para 0.4 (20%) de visibilidade para iniciar o efeito
     });
   
     elementsToAnimate.forEach((element) => {

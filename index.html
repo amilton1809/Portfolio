@@ -133,22 +133,23 @@
 
     <section id="contatos" class="contatos">
         <h2 id="h2zin">Entre em Contato</h2>
-        <form id="formulario" class="formulario-contato">
+        <form id="formulario" class="formulario-contato" onsubmit="sendMessage(event)">
             <div class="grupo-form">
-                <input class="campo-form" placeholder="nome">
+                <input class="campo-form" id="name" placeholder="Nome" required>
             </div>
 
             <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua Mensagem"></textarea>
+                <textarea class="campo-form" id="message" placeholder="Digite sua Mensagem" required></textarea>
             </div>
 
-            <button class="botao-form" id="botao-form" type="submit">Enviar Whatsapp</button>
+            <button class="botao-form" id="botao-form" type="submit">Enviar no Whatsapp</button>
         </form>
     </section>
 
     <script src="puxandoxml.js"></script>
     <script src="eventos.js"></script>
     <script src="Eventosuave.js"></script>
+    <script src="senMessage.js"></script>
 
 </body>
 
