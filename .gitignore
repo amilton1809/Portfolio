@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Sistema operacional e IDE
+.DS_Store
+*.log
+.vscode/
+.env*

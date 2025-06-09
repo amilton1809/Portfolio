@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1E293B;
+  --secondary: #38BDF8;
+  --accent: #8B5CF6;
+  --text-light: #F1F5F9;
+  --text-dark: #334155;
+}
+
+body {
+  color: var(--text-light);
+  background: var(--primary);
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 text-center relative;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-secondary rounded-full mt-2;
+  }
+
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16;
+  }
+
+  .btn-primary {
+    @apply bg-accent hover:bg-purple-500 text-white font-semibold py-2 px-6 rounded-md transition-all duration-300 inline-block;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-secondary text-secondary hover:bg-blue-900/20 font-semibold py-2 px-6 rounded-md transition-all duration-300 inline-block;
+  }
+
+  .card {
+    @apply bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .skill-card {
+    @apply bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:translate-y-[-5px];
+  }
+
+  .project-card {
+    @apply bg-gray-800/50 backdrop-blur-sm rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:translate-y-[-5px];
+  }
+
+  .event-card {
+    @apply bg-gray-800/50 backdrop-blur-sm rounded-lg p-6 transition-all duration-300 hover:shadow-lg flex flex-col md:flex-row gap-4 mb-6;
+  }
+
+  .timeline-item {
+    @apply relative pl-8 pb-10 border-l-2 border-secondary;
+  }
+
+  .timeline-item::before {
+    content: '';
+    @apply absolute left-[-9px] top-0 w-4 h-4 rounded-full bg-accent;
+  }
+
+  .timeline-item:last-child {
+    @apply border-transparent;
+  }
+
+  .mechanics-tab {
+    @apply px-4 py-2 rounded-t-lg font-medium transition-all duration-300;
+  }
+
+  .mechanics-tab.active {
+    @apply bg-gray-800/50 text-secondary;
+  }
+
+  .mechanics-tab:not(.active) {
+    @apply text-gray-400 hover:text-white;
+  }
+}
+
+.wave-divider {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wave-divider svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.delay-100 {
+  animation-delay: 0.1s;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-300 {
+  animation-delay: 0.3s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.delay-500 {
+  animation-delay: 0.5s;
+}
